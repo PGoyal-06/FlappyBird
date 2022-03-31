@@ -56,7 +56,7 @@ function draw() {
   pipe_move();
 
   //bird movement
-if (keyDown("Up_Arrow")){
+if (keyDown("space")){
   bird.y = bird.y - 15;
   }
   else{
